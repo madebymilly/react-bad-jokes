@@ -5,9 +5,6 @@ export default class Joke extends Component {
   constructor(props) {
     super(props)
   
-    this.state = {
-       
-    }
     this.handleScoreUp = this.handleScoreUp.bind(this)
     this.handleScoreDown = this.handleScoreDown.bind(this)
     this.getColor = this.getColor.bind(this)
